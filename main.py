@@ -22,7 +22,7 @@ def guess_the_number():
             if answer < hidden_number:
                 print('Маловато. Думай дальше!')
                 print()
-            elif answer> hidden_number:
+            elif answer > hidden_number:
                 print('Слишком много! Еще подумай')
                 print()
             elif answer == hidden_number:
